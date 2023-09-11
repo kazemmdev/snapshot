@@ -1,0 +1,46 @@
+{
+  "name": "kazemmdev/snapshot",
+  "description": "Snapshot cloud manager",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kazem Mirzaei",
+      "email": "k90mirzaei@gmail.com",
+      "homepage": "https://kazemm.dev",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kazemmdev\\Snapshot\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kazemmdev\\Tests\\Snapshot\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "pestphp/pest": "2.x-dev"
+  },
+  "scripts": {
+    "test": "./vendor/bin/pest",
+    "test-coverage": "./vendor/bin/pest --coverage"
+  },
+  "scripts-descriptions": {
+    "test": "Run pestPHP test suite",
+    "test-coverage": "Run pestPHP test suite with coverage report"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
