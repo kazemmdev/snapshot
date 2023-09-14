@@ -1,7 +1,6 @@
 <?php
 
 use Kazemmdev\Tests\Snapshot\TestCase;
-use Illuminate\Support\Facades\Http;
 
 uses(TestCase::class)->in(__DIR__);
 
