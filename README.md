@@ -22,8 +22,6 @@ php artisan vendor:publish --tag=snapshot-config
 1. List all snapshots
 ```php
 php artisan snapshot:list
-php artisan snapshot:create
-php artisan snapshot:clean
 ```
 
 2. create a snapshots
@@ -35,7 +33,6 @@ php artisan snapshot:create
 ```php
 php artisan snapshot:clean
 ```
-
 
 ## Testing
 
